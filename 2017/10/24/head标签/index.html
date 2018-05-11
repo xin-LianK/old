@@ -1,0 +1,1360 @@
+<!DOCTYPE html>
+<html style="display: none;" lang="zh">
+    <head>
+    <meta charset="utf-8">
+    <script>
+    var OriginTitile = document.title;
+    var titleTime;
+    document.addEventListener('visibilitychange', function() {
+        if (document.hidden) {
+            document.title = '(つェ⊂)闷死我了~ ' + OriginTitile;
+            clearTimeout(titleTime);
+        }
+        else {
+            document.title = '(*´∇｀*) 新鲜空气真好~ ' + OriginTitile;
+            titleTime = setTimeout(function() {
+                document.title = OriginTitile;
+            }, 2000);
+        }
+    });
+    </script>
+    <style>
+        html{
+            cursor: url(Aimg/cursor.ico),auto;
+        }
+    </style>
+    <!-- dns prefetch -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+
+
+
+    <link rel="dns-prefetch" href="https://busuanzi.ibruce.info"/>
+
+
+    <link rel="dns-prefetch" href="https://changyan.sohu.com"/>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Title -->
+    
+    <title>
+        
+            head标签中的琐事 | 
+        
+        K.的博客
+    </title>
+
+    <!-- Meta & Info -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="theme-color" content="#0097A7">
+    <meta name="author" content="K.先生">
+    <meta name="description" itemprop="description" content="">
+    <meta name="keywords" content="web">
+
+    <!-- Import lsloader -->
+    <script>(function(){window.lsloader={jsRunSequence:[],jsnamemap:{},cssnamemap:{}};lsloader.removeLS=function(key){try{localStorage.removeItem(key)}catch(e){}};lsloader.setLS=function(key,val){try{localStorage.setItem(key,val)}catch(e){}};lsloader.getLS=function(key){var val="";try{val=localStorage.getItem(key)}catch(e){val=""}return val};versionString="/*"+(window.materialVersion||"unknownVersion")+"*/";lsloader.clean=function(){try{var keys=[];for(var i=0;i<localStorage.length;i++){keys.push(localStorage.key(i))}keys.forEach(function(key){var data=lsloader.getLS(key);if(window.oldVersion){var remove=window.oldVersion.reduce(function(p,c){return p||data.indexOf("/*"+c+"*/")!==-1},false);if(remove){lsloader.removeLS(key)}}})}catch(e){}};lsloader.clean();lsloader.load=function(jsname,jspath,cssonload,isJs){if(typeof cssonload==="boolean"){isJs=cssonload;cssonload=undefined}isJs=isJs||false;cssonload=cssonload||function(){};var code;code=this.getLS(jsname);if(code&&code.indexOf(versionString)===-1){this.removeLS(jsname);this.requestResource(jsname,jspath,cssonload,isJs);return}if(code){var versionNumber=code.split(versionString)[0];if(versionNumber!=jspath){console.log("reload:"+jspath);this.removeLS(jsname);this.requestResource(jsname,jspath,cssonload,isJs);return}code=code.split(versionString)[1];if(isJs){this.jsRunSequence.push({name:jsname,code:code});this.runjs(jspath,jsname,code)}else{document.getElementById(jsname).appendChild(document.createTextNode(code));cssonload()}}else{this.requestResource(jsname,jspath,cssonload,isJs)}};lsloader.requestResource=function(name,path,cssonload,isJs){var that=this;if(isJs){this.iojs(path,name,function(path,name,code){that.setLS(name,path+versionString+code);that.runjs(path,name,code)})}else{this.iocss(path,name,function(code){document.getElementById(name).appendChild(document.createTextNode(code));that.setLS(name,path+versionString+code)},cssonload)}};lsloader.iojs=function(path,jsname,callback){var that=this;that.jsRunSequence.push({name:jsname,code:""});try{var xhr=new XMLHttpRequest;xhr.open("get",path,true);xhr.onreadystatechange=function(){if(xhr.readyState==4){if(xhr.status>=200&&xhr.status<300||xhr.status==304){if(xhr.response!=""){callback(path,jsname,xhr.response);return}}that.jsfallback(path,jsname)}};xhr.send(null)}catch(e){that.jsfallback(path,jsname)}};lsloader.iocss=function(path,jsname,callback,cssonload){var that=this;try{var xhr=new XMLHttpRequest;xhr.open("get",path,true);xhr.onreadystatechange=function(){if(xhr.readyState==4){if(xhr.status>=200&&xhr.status<300||xhr.status==304){if(xhr.response!=""){callback(xhr.response);cssonload();return}}that.cssfallback(path,jsname,cssonload)}};xhr.send(null)}catch(e){that.cssfallback(path,jsname,cssonload)}};lsloader.iofonts=function(path,jsname,callback,cssonload){var that=this;try{var xhr=new XMLHttpRequest;xhr.open("get",path,true);xhr.onreadystatechange=function(){if(xhr.readyState==4){if(xhr.status>=200&&xhr.status<300||xhr.status==304){if(xhr.response!=""){callback(xhr.response);cssonload();return}}that.cssfallback(path,jsname,cssonload)}};xhr.send(null)}catch(e){that.cssfallback(path,jsname,cssonload)}};lsloader.runjs=function(path,name,code){if(!!name&&!!code){for(var k in this.jsRunSequence){if(this.jsRunSequence[k].name==name){this.jsRunSequence[k].code=code}}}if(!!this.jsRunSequence[0]&&!!this.jsRunSequence[0].code&&this.jsRunSequence[0].status!="failed"){var script=document.createElement("script");script.appendChild(document.createTextNode(this.jsRunSequence[0].code));script.type="text/javascript";document.getElementsByTagName("head")[0].appendChild(script);this.jsRunSequence.shift();if(this.jsRunSequence.length>0){this.runjs()}}else if(!!this.jsRunSequence[0]&&this.jsRunSequence[0].status=="failed"){var that=this;var script=document.createElement("script");script.src=this.jsRunSequence[0].path;script.type="text/javascript";this.jsRunSequence[0].status="loading";script.onload=function(){that.jsRunSequence.shift();if(that.jsRunSequence.length>0){that.runjs()}};document.body.appendChild(script)}};lsloader.tagLoad=function(path,name){this.jsRunSequence.push({name:name,code:"",path:path,status:"failed"});this.runjs()};lsloader.jsfallback=function(path,name){if(!!this.jsnamemap[name]){return}else{this.jsnamemap[name]=name}for(var k in this.jsRunSequence){if(this.jsRunSequence[k].name==name){this.jsRunSequence[k].code="";this.jsRunSequence[k].status="failed";this.jsRunSequence[k].path=path}}this.runjs()};lsloader.cssfallback=function(path,name,cssonload){if(!!this.cssnamemap[name]){return}else{this.cssnamemap[name]=1}var link=document.createElement("link");link.type="text/css";link.href=path;link.rel="stylesheet";link.onload=link.onerror=cssonload;var root=document.getElementsByTagName("script")[0];root.parentNode.insertBefore(link,root)};lsloader.runInlineScript=function(scriptId,codeId){var code=document.getElementById(codeId).innerText;this.jsRunSequence.push({name:scriptId,code:code});this.runjs()};lsloader.loadCombo=function(jslist){var updateList="";var requestingModules={};for(var k in jslist){var LS=this.getLS(jslist[k].name);if(!!LS){var version=LS.split(versionString)[0];var code=LS.split(versionString)[1]}else{var version=""}if(version==jslist[k].path){this.jsRunSequence.push({name:jslist[k].name,code:code,path:jslist[k].path})}else{this.jsRunSequence.push({name:jslist[k].name,code:null,path:jslist[k].path,status:"comboloading"});requestingModules[jslist[k].name]=true;updateList+=(updateList==""?"":";")+jslist[k].path}}var that=this;if(!!updateList){var xhr=new XMLHttpRequest;xhr.open("get",combo+updateList,true);xhr.onreadystatechange=function(){if(xhr.readyState==4){if(xhr.status>=200&&xhr.status<300||xhr.status==304){if(xhr.response!=""){that.runCombo(xhr.response,requestingModules);return}}else{for(var i in that.jsRunSequence){if(requestingModules[that.jsRunSequence[i].name]){that.jsRunSequence[i].status="failed"}}that.runjs()}}};xhr.send(null)}this.runjs()};lsloader.runCombo=function(comboCode,requestingModules){comboCode=comboCode.split("/*combojs*/");comboCode.shift();for(var k in this.jsRunSequence){if(!!requestingModules[this.jsRunSequence[k].name]&&!!comboCode[0]){this.jsRunSequence[k].status="comboJS";this.jsRunSequence[k].code=comboCode[0];this.setLS(this.jsRunSequence[k].name,this.jsRunSequence[k].path+versionString+comboCode[0]);comboCode.shift()}}this.runjs()}})();</script>
+
+    <!-- Import queue -->
+    <script>function Queue(){this.dataStore=[];this.offer=b;this.poll=d;this.execNext=a;this.debug=false;this.startDebug=c;function b(e){if(this.debug){console.log("Offered a Queued Function.")}if(typeof e==="function"){this.dataStore.push(e)}else{console.log("You must offer a function.")}}function d(){if(this.debug){console.log("Polled a Queued Function.")}return this.dataStore.shift()}function a(){var e=this.poll();if(e!==undefined){if(this.debug){console.log("Run a Queued Function.")}e()}}function c(){this.debug=true}}var queue=new Queue();</script>
+
+    <!-- Favicons -->
+    <link rel="icon shortcut" type="image/ico" href="/Aimg/favicon.png">
+    <link rel="icon" sizes="192x192" href="/Aimg/favicon.png">
+    <link rel="apple-touch-icon" href="/Aimg/favicon.png">
+
+    <!--iOS -->
+    <meta name="apple-mobile-web-app-title" content="Title">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="480">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="K.的博客">
+
+    <!-- Site Verification -->
+    
+    <meta name="baidu-site-verification" content="XQlZpmkXnP" />
+
+    <!-- RSS -->
+    
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="/css/ie-blocker.css">
+
+        
+            <script src="/js/ie-blocker.zhCN.js"></script>
+        
+    <![endif]-->
+
+    <!-- Import CSS -->
+    
+        <style id="material_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_css","/css/material.min.css?Z7a72R1E4SxzBKR/WGctOA==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+        <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","/css/style.min.css?MKetZV3cUTfDxvMffaOezg==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+        
+
+    
+
+    
+
+    <!-- Config CSS -->
+
+<!-- Other Styles -->
+<style>
+  body,
+  html {
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace, Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "楷体", "微软雅黑", Arial, sans-serif;
+    overflow-x: hidden !important;
+  }
+
+  /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background-color: #F5F5F5;
+  }
+
+  /*定义滚动条轨道 内阴影+圆角*/
+
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: rgba(255, 126, 203, 0.1);
+  }
+
+  /*定义滑块 内阴影+圆角*/
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
+    background-color: rgba(252, 165, 216, 1);
+  }
+
+  code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
+
+  a {
+    color: #00838F;
+  }
+
+  .mdl-card__media,
+  #search-label,
+  #search-form-label:after,
+  #scheme-Paradox .hot_tags-count,
+  #scheme-Paradox .sidebar_archives-count,
+  #scheme-Paradox .sidebar-colored .sidebar-header,
+  #scheme-Paradox .sidebar-colored .sidebar-badge {
+    background-color: #0097A7 !important;
+  }
+
+  /* Sidebar User Drop Down Menu Text Color */
+
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
+    color: #0097A7 !important;
+  }
+
+  #post_entry-right-info,
+  .sidebar-colored .sidebar-nav li:hover>a,
+  .sidebar-colored .sidebar-nav li:hover>a i,
+  .sidebar-colored .sidebar-nav li>a:hover,
+  .sidebar-colored .sidebar-nav li>a:hover i,
+  .sidebar-colored .sidebar-nav li>a:focus i,
+  .sidebar-colored .sidebar-nav>.open>a,
+  .sidebar-colored .sidebar-nav>.open>a:hover,
+  .sidebar-colored .sidebar-nav>.open>a:focus,
+  #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
+    color: #0097A7 !important;
+  }
+
+  .toTop {
+    background: #757575 !important;
+  }
+
+  .material-layout .material-post>.material-nav,
+  .material-layout .material-index>.material-nav,
+  .material-nav a {
+    color: #757575;
+  }
+
+  #scheme-Paradox .MD-burger-layer {
+    background-color: #757575;
+  }
+
+  #scheme-Paradox #post-toc-trigger-btn {
+    color: #757575;
+  }
+
+  .post-toc a:hover {
+    color: #00838F;
+    text-decoration: underline;
+  }
+</style>
+
+
+<!-- Theme Background Related-->
+
+      <style>
+        body {
+          background-image: url(/Aimg/bg.jpg);
+        }
+      </style>
+      
+
+
+
+        <!-- Fade Effect -->
+        
+          <style>
+            .fade {
+              transition: all 800ms linear;
+              -webkit-transform: translate3d(0, 0, 0);
+              -moz-transform: translate3d(0, 0, 0);
+              -ms-transform: translate3d(0, 0, 0);
+              -o-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+              opacity: 1;
+            }
+
+            .fade.out {
+              opacity: 0;
+            }
+          </style>
+          
+
+            <!-- Import Font -->
+            <!-- Import Roboto -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+
+
+<!-- Import Material Icon -->
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+
+    <!-- Import jQuery -->
+    
+        <script>lsloader.load("jq_js","https://cdn.bootcss.com/jquery/3.2.1/jquery.js", true)</script>
+    
+
+    <!-- The Open Graph protocol -->
+    <meta property="og:url" content="https://xin-LianK.github.io">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="head标签中的琐事 | K.的博客">
+    <meta property="og:image" content="https://xin-LianK.github.io/Aimg/favicon.png" />
+    <meta property="og:description" content="">
+    
+
+    
+        <meta property="article:published_time" content="Tue Oct 24 2017 20:46:25 GMT+0800" />
+        <meta property="article:modified_time" content="Wed Oct 25 2017 16:53:03 GMT+0800" />
+    
+
+    <!-- The Twitter Card protocol -->
+    <meta name="twitter:title" content="head标签中的琐事 | K.的博客">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="https://xin-LianK.github.io/Aimg/favicon.png">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://xin-LianK.github.io" />
+
+    <!-- Add canonical link for SEO -->
+    
+        <link rel="canonical" href="https://xin-LianK.github.io/2017/10/24/head标签/index.html" />
+    
+
+    <!-- Structured-data for SEO -->
+    
+        
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "https://xin-LianK.github.io/2017/10/24/head标签/index.html",
+    "headline": "head标签中的琐事",
+    "datePublished": "Tue Oct 24 2017 20:46:25 GMT+0800",
+    "dateModified": "Wed Oct 25 2017 16:53:03 GMT+0800",
+    "author": {
+        "@type": "Person",
+        "name": "K.先生",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/Aimg/avatar.png"
+        },
+        "description": "风萧萧兮易水寒&nbsp;&nbsp;&nbsp;&nbsp;壮士一去编程不复还"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "K.的博客",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/Aimg/favicon.png"
+        }
+    },
+    "keywords": "web",
+    "description": "",
+}
+</script>
+
+
+    
+
+    <!-- Analytics -->
+    
+    
+    
+
+    <!-- Custom Head -->
+    
+
+<link rel="stylesheet" href="/css/prism-atom-dark.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"><script src="/js/prism.js"></script>
+<script src="/js/prism-line-numbers.min.js"></script></head>
+
+
+    
+        <body id="scheme-Paradox" class="lazy">
+            <div style="position:fixed;top:5%;left:45%;z-index:100000000;"><embed wmode="transparent" src="http://chabudai.sakura.ne.jp/blogparts/honehoneclock/honehone_clock_tr.swf" quality="high" bgcolor="#ffffff" width="160" height="70" name="honehoneclock" align="middle" allowscriptaccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></div>
+            <div class="material-layout  mdl-js-layout has-drawer is-upgraded">
+                
+                <!-- Main Container -->
+                <main class="material-layout__content" id="main">
+                    <!-- Top Anchor -->
+                    <div id="top"></div>
+                    
+                        <!-- Hamburger Button -->
+                        <button class="MD-burger-icon sidebar-toggle">
+                            <span class="MD-burger-layer"></span>
+                        </button>
+                    
+                    <!-- Post TOC -->
+
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#最小推荐"><span class="post-toc-number">1.</span> <span class="post-toc-text">最小推荐</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#网页元素"><span class="post-toc-number">2.</span> <span class="post-toc-text">网页元素</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Meta-标签"><span class="post-toc-number">3.</span> <span class="post-toc-text">Meta 标签</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#链接"><span class="post-toc-number">4.</span> <span class="post-toc-text">链接</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#网站图标"><span class="post-toc-number">5.</span> <span class="post-toc-text">网站图标</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#社交"><span class="post-toc-number">6.</span> <span class="post-toc-text">社交</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Facebook-Instant-Articles"><span class="post-toc-number">7.</span> <span class="post-toc-text">Facebook Instant Articles</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Twitter-Cards"><span class="post-toc-number">8.</span> <span class="post-toc-text">Twitter Cards</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Google-Schema-org"><span class="post-toc-number">9.</span> <span class="post-toc-text">Google+ / Schema.org</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Pinterest"><span class="post-toc-number">10.</span> <span class="post-toc-text">Pinterest</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#OEmbed"><span class="post-toc-number">11.</span> <span class="post-toc-text">OEmbed</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#浏览器-平台"><span class="post-toc-number">12.</span> <span class="post-toc-text">浏览器 / 平台</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#Apple-iOS"><span class="post-toc-number">12.1.</span> <span class="post-toc-text">Apple iOS</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#Apple-Safari"><span class="post-toc-number">12.2.</span> <span class="post-toc-text">Apple Safari</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#Google-Android"><span class="post-toc-number">12.3.</span> <span class="post-toc-text">Google Android</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#Google-Chrome"><span class="post-toc-number">12.4.</span> <span class="post-toc-text">Google Chrome</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#Google-Chrome-Mobile-只针对-Android"><span class="post-toc-number">12.5.</span> <span class="post-toc-text">Google Chrome Mobile (只针对 Android)</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#Microsoft-Internet-Explorer"><span class="post-toc-number">12.6.</span> <span class="post-toc-text">Microsoft Internet Explorer</span></a></li></ol></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#应用链接"><span class="post-toc-number">13.</span> <span class="post-toc-text">应用链接</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#国内的浏览器"><span class="post-toc-number">14.</span> <span class="post-toc-text">国内的浏览器</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#360浏览器"><span class="post-toc-number">14.1.</span> <span class="post-toc-text">360浏览器</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#QQ-移动浏览器"><span class="post-toc-number">14.2.</span> <span class="post-toc-text">QQ 移动浏览器</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#UC浏览器"><span class="post-toc-number">14.3.</span> <span class="post-toc-text">UC浏览器</span></a></li></ol></li></ol>
+    </ul>
+    
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
+    
+        <!-- Custom Thumbnail -->
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(/Aimg/banner/ban24.jpg)">
+    
+            <p class="article-headline-p">
+                head标签中的琐事
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/Aimg/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>K.先生</strong>
+        <span>10月 24, 2017</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">devices other</i>
+    <span class="visuallyhidden">devices other</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
+    <li class="mdl-menu__item">在其它设备中阅读本文章</li>
+    
+        <img src="https://pan.baidu.com/share/qrcode?w=246&h=246&url=https://xin-LianK.github.io/2017/10/24/head标签/">
+    
+</ul>
+
+    
+
+    <!-- Tags (bookmark) -->
+    
+
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+        
+            <!-- Busuanzi Views -->
+            <a class="post_share-link" href="#">
+                <li class="mdl-menu__item">
+                    <span id="busuanzi_container_page_pv">
+                        <span id="busuanzi_value_page_pv"></span>&nbsp;浏览量
+                    </span>
+                </li>
+            </a>
+        
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=head标签中的琐事&url=https://xin-LianK.github.io/2017/10/24/head标签/index.html&pic=https://xin-LianK.github.io/Aimg/favicon.png&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=head标签中的琐事&url=https://xin-LianK.github.io/2017/10/24/head标签/index.html&via=K.先生" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=https://xin-LianK.github.io/2017/10/24/head标签/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=K.的博客&title=head标签中的琐事&summary=&pics=https://xin-LianK.github.io/Aimg/favicon.png&url=https://xin-LianK.github.io/2017/10/24/head标签/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 QQ
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <script src="\assets\js\APlayer.min.js"> </script><p>Welcome to <a href="https:xin-LianK.github.io" target="_blank" rel="external">我的博客</a><br><blockquote><p>一份关于任何可以写入到你的文档中 <head> 部分的清单。<link rel="stylesheet" href="/css/prism-atom-dark.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"><script src="/js/prism.js"></script>
+<script src="/js/prism-line-numbers.min.js"></script></head></p>
+</blockquote></p>
+<h4 id="最小推荐"><a href="#最小推荐" class="headerlink" title="最小推荐"></a>最小推荐</h4><p>下面是基本的、最低限度的网站基本标签：</p>
+<pre><code>&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta http-equiv=&quot;x-ua-compatible&quot; content=&quot;ie=edge&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;&gt;
+&lt;!-- 以上 3 个 meta 标签 *必须* 放在 head 的最前面；其他任何的 head 内容必须在这些标签的 *后面* --&gt;
+&lt;title&gt;页面标题&lt;/title&gt;
+</code></pre><h4 id="网页元素"><a href="#网页元素" class="headerlink" title="网页元素"></a>网页元素</h4><pre><code>&lt;!-- 文档标题 --&gt;
+&lt;title&gt;页面标题&lt;/title&gt;
+
+&lt;!-- 基本 URL 作用于文档中所包含的所有相对 URL --&gt;
+&lt;base href=&quot;https://example.com/page.html&quot;&gt;
+
+&lt;!-- 外部的 CSS --&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot;&gt;
+
+&lt;!-- 文档内的 CSS --&gt;
+&lt;style&gt;
+  /* ... */
+&lt;/style&gt;
+
+&lt;!-- JavaScript --&gt;
+&lt;script src=&quot;script.js&quot;&gt;&lt;/script&gt;
+&lt;noscript&gt;&lt;!--无 JS 时的替代--&gt;&lt;/noscript&gt;
+</code></pre><h4 id="Meta-标签"><a href="#Meta-标签" class="headerlink" title="Meta 标签"></a>Meta 标签</h4><pre><code>
+&lt;!-- 设置文档的字符编码 --&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta http-equiv=&quot;x-ua-compatible&quot; content=&quot;ie=edge&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;&gt;
+&lt;!-- 以上 3 个 meta 标签 *必须* 放在 head 的最前面；其他任何的 head 内容必须在这些标签的 *后面* --&gt;
+
+&lt;!-- 允许控制资源的过度加载 --&gt;
+&lt;meta http-equiv=&quot;Content-Security-Policy&quot; content=&quot;default-src &#39;self&#39;&quot;&gt;
+&lt;!-- 尽早地放置在文档中 --&gt;
+&lt;!-- 仅应用于该标签下的内容 --&gt;
+
+&lt;!-- Web 应用的名称（仅当网站被用作为一个应用时才使用）--&gt;
+&lt;meta name=&quot;application-name&quot; content=&quot;应用名称&quot;&gt;
+
+&lt;!-- 针对页面的简短描述（限制 150 字符）--&gt;
+&lt;!-- 在*某些*情况下，该描述是被用作搜索结果展示片段的一部分 --&gt;
+&lt;meta name=&quot;description&quot; content=&quot;一个页面描述&quot;&gt;
+
+&lt;!-- 控制搜索引擎的抓取和索引行为 --&gt;
+&lt;meta name=&quot;robots&quot; content=&quot;index,follow&quot;&gt;&lt;!-- 所有搜索引擎 --&gt;
+&lt;meta name=&quot;googlebot&quot; content=&quot;index,follow&quot;&gt;&lt;!-- 仅对 Google 有效 --&gt;
+
+&lt;!-- 告诉 Google 不显示网站链接的搜索框 --&gt;
+&lt;meta name=&quot;google&quot; content=&quot;nositelinkssearchbox&quot;&gt;
+
+&lt;!-- 告诉 Google 不提供此页面的翻译 --&gt;
+&lt;meta name=&quot;google&quot; content=&quot;notranslate&quot;&gt;
+
+&lt;!-- 验证 Google 搜索控制台的所有权 --&gt;
+&lt;meta name=&quot;google-site-verification&quot; content=&quot;verification_token&quot;&gt;
+
+&lt;!-- 验证 Yandex 网站管理员的所有权 --&gt;
+&lt;meta name=&quot;yandex-verification&quot; content=&quot;verification_token&quot;&gt;
+
+&lt;!-- 验证 Bing 网站管理员中心的所有权 --&gt;
+&lt;meta name=&quot;msvalidate.01&quot; content=&quot;verification_token&quot;&gt;
+
+&lt;!-- 验证 Alexa 控制台的所有权 --&gt;
+&lt;meta name=&quot;alexaVerifyID&quot; content=&quot;verification_token&quot;&gt;
+&lt;!-- 验证 Pinterest 控制台的所有权 --&gt;
+&lt;meta name=&quot;p:domain_verify&quot; content=&quot;code from pinterest&quot;&gt;
+
+&lt;!-- 验证 Norton 安全站点的所有权 --&gt;
+&lt;meta name=&quot;norton-safeweb-site-verification&quot; content=&quot;norton code&quot;&gt;
+
+&lt;!-- 用来命名软件或用于构建网页（如 - WordPress、Dreamweaver）--&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;program&quot;&gt;
+
+&lt;!-- 关于你的网站主题的简短描述 --&gt;
+&lt;meta name=&quot;subject&quot; content=&quot;你的网站主题&quot;&gt;
+
+&lt;!-- 基于网站内容给出一般的年龄分级 --&gt;
+&lt;meta name=&quot;rating&quot; content=&quot;General&quot;&gt;
+
+&lt;!-- 允许控制 referrer 信息如何传递 --&gt;
+&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
+
+&lt;!-- 禁用自动检测和格式化可能的电话号码 --&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+
+&lt;!-- 通过设置为 “off” 完全退出 DNS 预取 --&gt;
+&lt;meta http-equiv=&quot;x-dns-prefetch-control&quot; content=&quot;off&quot;&gt;
+
+&lt;!-- 在客户端存储 cookie，web 浏览器的客户端识别 --&gt;
+&lt;meta http-equiv=&quot;set-cookie&quot; content=&quot;name=value; expires=date; path=url&quot;&gt;
+
+&lt;!-- 指定要显示在一个特定框架中的页面 --&gt;
+&lt;meta http-equiv=&quot;Window-Target&quot; content=&quot;_value&quot;&gt;
+
+&lt;!-- 地理标签 --&gt;
+&lt;meta name=&quot;ICBM&quot; content=&quot;latitude, longitude&quot;&gt;
+&lt;meta name=&quot;geo.position&quot; content=&quot;latitude;longitude&quot;&gt;
+&lt;meta name=&quot;geo.region&quot; content=&quot;country[-state]&quot;&gt;&lt;!-- 国家代码 (ISO 3166-1): 强制性, 州代码 (ISO 3166-2): 可选; 如 content=&quot;US&quot; / content=&quot;US-NY&quot; --&gt;
+&lt;meta name=&quot;geo.placename&quot; content=&quot;city/town&quot;&gt;&lt;!-- 如 content=&quot;New York City&quot; --&gt;
+</code></pre><h4 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h4><pre><code>&lt;!-- 表明一个 CSS 样式表 --&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;https://example.com/styles.css&quot;&gt;
+
+&lt;!-- 有助于防止出现内容重复的问题 --&gt;
+&lt;link rel=&quot;canonical&quot; href=&quot;https://example.com/2010/06/9-things-to-do-before-entering-social-media.html&quot;&gt;
+
+&lt;!-- 之前用于包含 icon 链接，但已被废弃并不再使用 --&gt;
+&lt;link rel=&quot;shortlink&quot; href=&quot;https://example.com/?p=42&quot;&gt;
+
+&lt;!-- 链接到当前文档的一个 AMP HTML 版本 --&gt;
+&lt;link rel=&quot;amphtml&quot; href=&quot;https://example.com/path/to/amp-version.html&quot;&gt;
+
+&lt;!-- 链接到一个指定 Web 应用程序“安装”证书的 JSON 文件 --&gt;
+&lt;link rel=&quot;manifest&quot; href=&quot;manifest.json&quot;&gt;
+
+&lt;!-- 链接到文档的作者 --&gt;
+&lt;link rel=&quot;author&quot; href=&quot;humans.txt&quot;&gt;
+
+&lt;!-- 指向一个适用于链接内容的版权申明 --&gt;
+&lt;link rel=&quot;license&quot; href=&quot;copyright.html&quot;&gt;
+
+&lt;!-- 给出可能的你的另一种语言的文档位置参考 --&gt;
+&lt;link rel=&quot;alternate&quot; href=&quot;https://es.example.com/&quot; hreflang=&quot;es&quot;&gt;
+
+&lt;!-- 提供了关于作者或其他人的信息 --&gt;
+&lt;link rel=&quot;me&quot; href=&quot;https://google.com/profiles/thenextweb&quot; type=&quot;text/html&quot;&gt;
+&lt;link rel=&quot;me&quot; href=&quot;mailto:name@example.com&quot;&gt;
+&lt;link rel=&quot;me&quot; href=&quot;sms:+15035550125&quot;&gt;
+
+&lt;!-- 链接到一个描述历史记录、文档或其他具有历史意义的材料的集合的文档。 --&gt;
+&lt;link rel=&quot;archives&quot; href=&quot;https://example.com/archives/&quot;&gt;
+
+&lt;!-- 链接到层次结构中的顶级资源 --&gt;
+&lt;link rel=&quot;index&quot; href=&quot;https://example.com/&quot;&gt;
+
+&lt;!-- 给出一个自我参考 - 当文档有多个可能的参考时非常有用 --&gt;
+&lt;link rel=&quot;self&quot; type=&quot;application/atom+xml&quot; href=&quot;https://example.com/atomFeed.php?page=3&quot;&gt;
+
+&lt;!-- 分别是在一系列文件中的第一个、下一个、上一个和最后一个 --&gt;
+&lt;link rel=&quot;first&quot; href=&quot;https://example.com/atomFeed.php&quot;&gt;
+&lt;link rel=&quot;next&quot; href=&quot;https://example.com/atomFeed.php?page=4&quot;&gt;
+&lt;link rel=&quot;prev&quot; href=&quot;https://example.com/atomFeed.php?page=2&quot;&gt;
+&lt;link rel=&quot;last&quot; href=&quot;https://example.com/atomFeed.php?page=147&quot;&gt;
+
+&lt;!-- 当使用第三方服务来维护 blog 时使用 --&gt;
+&lt;link rel=&quot;EditURI&quot; href=&quot;https://example.com/xmlrpc.php?rsd&quot; type=&quot;application/rsd+xml&quot; title=&quot;RSD&quot;&gt;
+
+&lt;!-- 当另一个 WordPress 博客链接到你的 WordPress 博客或文章时形成一个自动化的评论 --&gt;
+&lt;link rel=&quot;pingback&quot; href=&quot;https://example.com/xmlrpc.php&quot;&gt;
+
+&lt;!-- 当你在自己的页面上链接到一个 url 时通知它 --&gt;
+&lt;link rel=&quot;webmention&quot; href=&quot;https://example.com/webmention&quot;&gt;
+
+&lt;!-- 加载一个外部的 HTML 文件到当前 HTML 文件中 --&gt;
+&lt;link rel=&quot;import&quot; href=&quot;/path/to/component.html&quot;&gt;
+
+&lt;!-- 打开搜索 --&gt;
+&lt;link rel=&quot;search&quot; href=&quot;/open-search.xml&quot; type=&quot;application/opensearchdescription+xml&quot; title=&quot;Search Title&quot;&gt;
+
+&lt;!-- Feeds --&gt;
+&lt;link rel=&quot;alternate&quot; href=&quot;https://feeds.feedburner.com/example&quot; type=&quot;application/rss+xml&quot; title=&quot;RSS&quot;&gt;
+&lt;link rel=&quot;alternate&quot; href=&quot;https://example.com/feed.atom&quot; type=&quot;application/atom+xml&quot; title=&quot;Atom 0.3&quot;&gt;
+
+&lt;!-- 预取，预载，预浏览 --&gt;
+&lt;link rel=&quot;dns-prefetch&quot; href=&quot;//example.com/&quot;&gt;
+&lt;link rel=&quot;preconnect&quot; href=&quot;https://www.example.com/&quot;&gt;
+&lt;link rel=&quot;prefetch&quot; href=&quot;https://www.example.com/&quot;&gt;
+&lt;link rel=&quot;prerender&quot; href=&quot;https://example.com/&quot;&gt;
+&lt;link rel=&quot;preload&quot; href=&quot;image.png&quot; as=&quot;image&quot;&gt;
+&lt;!-- 更多信息：https://css-tricks.com/prefetching-preloading-prebrowsing/ --&gt;
+</code></pre><h4 id="网站图标"><a href="#网站图标" class="headerlink" title="网站图标"></a>网站图标</h4><pre><code>&lt;!-- 针对 IE 10 及以下版本 --&gt;
+&lt;!-- 如果将 `favicon.ico` 放在根目录下，则无需标签 --&gt;
+
+&lt;!-- 对于 IE 11、Chrome、Firefox、Safari 和 Opera --&gt;
+&lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;16x16&quot; href=&quot;/path/to/favicon-16x16.png&quot;&gt;
+&lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;32x32&quot; href=&quot;/path/to/favicon-32x32.png&quot;&gt;
+&lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;96x96&quot; href=&quot;/path/to/favicon-96x96.png&quot;&gt;
+&lt;!-- 更多信息: https://bitsofco.de/all-about-favicons-and-touch-icons/ --&gt;
+</code></pre><h4 id="社交"><a href="#社交" class="headerlink" title="社交"></a>社交</h4><pre><code>&lt;meta property=&quot;fb:app_id&quot; content=&quot;123456789&quot;&gt;
+&lt;meta property=&quot;og:url&quot; content=&quot;https://example.com/page.html&quot;&gt;
+&lt;meta property=&quot;og:type&quot; content=&quot;website&quot;&gt;
+&lt;meta property=&quot;og:title&quot; content=&quot;Content Title&quot;&gt;
+&lt;meta property=&quot;og:image&quot; content=&quot;https://example.com/image.jpg&quot;&gt;
+&lt;meta property=&quot;og:description&quot; content=&quot;Description Here&quot;&gt;
+&lt;meta property=&quot;og:site_name&quot; content=&quot;Site Name&quot;&gt;
+&lt;meta property=&quot;og:locale&quot; content=&quot;en_US&quot;&gt;
+&lt;meta property=&quot;article:author&quot; content=&quot;&quot;&gt;
+</code></pre><h4 id="Facebook-Instant-Articles"><a href="#Facebook-Instant-Articles" class="headerlink" title="Facebook Instant Articles"></a>Facebook Instant Articles</h4><pre><code>&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta property=&quot;op:markup_version&quot; content=&quot;v1.0&quot;&gt;
+
+&lt;!-- 你的文章的 Web 版网址 --&gt;
+&lt;link rel=&quot;canonical&quot; href=&quot;http://example.com/article.html&quot;&gt;
+
+&lt;!-- 用于该文章的样式 --&gt;
+&lt;meta property=&quot;fb:article_style&quot; content=&quot;myarticlestyle&quot;&gt;
+</code></pre><h4 id="Twitter-Cards"><a href="#Twitter-Cards" class="headerlink" title="Twitter Cards"></a>Twitter Cards</h4><pre><code>&lt;meta name=&quot;twitter:card&quot; content=&quot;summary&quot;&gt;
+&lt;meta name=&quot;twitter:site&quot; content=&quot;@site_account&quot;&gt;
+&lt;meta name=&quot;twitter:creator&quot; content=&quot;@individual_account&quot;&gt;
+&lt;meta name=&quot;twitter:url&quot; content=&quot;https://example.com/page.html&quot;&gt;
+&lt;meta name=&quot;twitter:title&quot; content=&quot;Content Title&quot;&gt;
+&lt;meta name=&quot;twitter:description&quot; content=&quot;Content description less than 200 characters&quot;&gt;
+&lt;meta name=&quot;twitter:image&quot; content=&quot;https://example.com/image.jpg&quot;&gt;
+</code></pre><h4 id="Google-Schema-org"><a href="#Google-Schema-org" class="headerlink" title="Google+ / Schema.org"></a>Google+ / Schema.org</h4><pre><code>&lt;link href=&quot;https://plus.google.com/+YourPage&quot; rel=&quot;publisher&quot;&gt;
+&lt;meta itemprop=&quot;name&quot; content=&quot;内容标题&quot;&gt;
+&lt;meta itemprop=&quot;description&quot; content=&quot;内容描述少于 200 个字符&quot;&gt;
+&lt;meta itemprop=&quot;image&quot; content=&quot;https://example.com/image.jpg&quot;&gt;
+</code></pre><h4 id="Pinterest"><a href="#Pinterest" class="headerlink" title="Pinterest"></a>Pinterest</h4><p>根据他们的帮助中心可知，Pinterest 允许你禁止他人保存你网站里的内容。description 为可选。</p>
+<pre><code>&lt;meta name=&quot;pinterest&quot; content=&quot;nopin&quot; description=&quot;Sorry, you can&#39;t save from my website!&quot;&gt;
+</code></pre><h4 id="OEmbed"><a href="#OEmbed" class="headerlink" title="OEmbed"></a>OEmbed</h4><pre><code>&lt;link rel=&quot;alternate&quot; type=&quot;application/json+oembed&quot;
+  href=&quot;http://example.com/services/oembed?url=http%3A%2F%2Fexample.com%2Ffoo%2F&amp;amp;format=json&quot;
+  title=&quot;oEmbed Profile: JSON&quot;&gt;
+&lt;link rel=&quot;alternate&quot; type=&quot;text/xml+oembed&quot;
+  href=&quot;http://example.com/services/oembed?url=http%3A%2F%2Fexample.com%2Ffoo%2F&amp;amp;format=xml&quot;
+  title=&quot;oEmbed Profile: XML&quot;&gt;
+</code></pre><h4 id="浏览器-平台"><a href="#浏览器-平台" class="headerlink" title="浏览器 / 平台"></a>浏览器 / 平台</h4><h5 id="Apple-iOS"><a href="#Apple-iOS" class="headerlink" title="Apple iOS"></a>Apple iOS</h5><pre><code>&lt;!-- 智能应用 Banner --&gt;
+&lt;meta name=&quot;apple-itunes-app&quot; content=&quot;app-id=APP_ID,affiliate-data=AFFILIATE_ID,app-argument=SOME_TEXT&quot;&gt;
+
+&lt;!-- 禁用自动检测和格式化可能的电话号码 --&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+
+&lt;!-- 添加到主屏幕 --&gt;
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot;&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black&quot;&gt;
+&lt;meta name=&quot;apple-mobile-web-app-title&quot; content=&quot;应用标题&quot;&gt;
+
+&lt;!-- 触摸图标 --&gt;
+&lt;!-- 在大多数情况下，在 `&lt;head&gt;` 中，一个 180×180px 触摸图标就已经足够了 --&gt;
+&lt;link rel=&quot;apple-touch-icon&quot; href=&quot;/path/to/apple-touch-icon.png&quot;&gt;
+&lt;!-- 注意：iOS 7 上的 Safari 不会对图标产生效果。 --&gt;
+&lt;!-- 较早版本的 Safari 不会对以 `-precomposed.png` 后缀命名的图标文件产生效果。 --&gt;
+
+&lt;!-- 启动画面（已无效） --&gt;
+&lt;link rel=&quot;apple-touch-startup-image&quot; href=&quot;path/to/startup.png&quot;&gt;
+
+&lt;!-- iOS 应用深层链接 --&gt;
+&lt;meta name=&quot;apple-itunes-app&quot; content=&quot;app-id=APP-ID, app-argument=http/url-sample.com&quot;&gt;
+&lt;link rel=&quot;alternate&quot; href=&quot;ios-app://APP-ID/http/url-sample.com&quot;&gt;
+</code></pre><h5 id="Apple-Safari"><a href="#Apple-Safari" class="headerlink" title="Apple Safari"></a>Apple Safari</h5><pre><code>&lt;!-- 固定网站 --&gt;
+&lt;link rel=&quot;mask-icon&quot; href=&quot;path/to/icon.svg&quot; color=&quot;red&quot;&gt;
+</code></pre><h5 id="Google-Android"><a href="#Google-Android" class="headerlink" title="Google Android"></a>Google Android</h5><pre><code>&lt;meta name=&quot;theme-color&quot; content=&quot;#E64545&quot;&gt;
+
+&lt;!-- 添加到主屏幕 --&gt;
+&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;&gt;
+&lt;!-- 更多信息：https://developer.chrome.com/multidevice/android/installtohomescreen --&gt;
+</code></pre><h5 id="Google-Chrome"><a href="#Google-Chrome" class="headerlink" title="Google Chrome"></a>Google Chrome</h5><pre><code>&lt;link rel=&quot;chrome-webstore-item&quot; href=&quot;https://chrome.google.com/webstore/detail/APP_ID&quot;&gt;
+
+&lt;!-- 禁用翻译提示 --&gt;
+&lt;meta name=&quot;google&quot; content=&quot;notranslate&quot;&gt;
+</code></pre><h5 id="Google-Chrome-Mobile-只针对-Android"><a href="#Google-Chrome-Mobile-只针对-Android" class="headerlink" title="Google Chrome Mobile (只针对 Android)"></a>Google Chrome Mobile (只针对 Android)</h5><p>从 Chrome 31 开始，你可以设置你的 Web 应用为“app mode”，如 Safari。</p>
+<pre><code>&lt;!-- 链接到一个 manifest 并定义 manifest 的元数据。--&gt;
+&lt;!-- manifest.json 中的例子也可以通过以下链接找到。--&gt;
+&lt;link rel=&quot;manifest&quot; href=&quot;manifest.json&quot;&gt;
+
+&lt;!-- 定义你的网页为 Web 应用 --&gt;
+&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;&gt;
+
+&lt;!-- 主屏幕图标 --&gt;
+&lt;link rel=&quot;icon&quot; sizes=&quot;192x192&quot; href=&quot;highres-icon.png&quot;&gt;
+</code></pre><h5 id="Microsoft-Internet-Explorer"><a href="#Microsoft-Internet-Explorer" class="headerlink" title="Microsoft Internet Explorer"></a>Microsoft Internet Explorer</h5><pre><code>&lt;meta http-equiv=&quot;x-ua-compatible&quot; content=&quot;ie=edge&quot;&gt;
+&lt;meta name=&quot;skype_toolbar&quot; content=&quot;skype_toolbar_parser_compatible&quot;&gt;
+
+&lt;!-- IE10: 禁用链接点击高亮 (https://blogs.windows.com/buildingapps/2012/11/15/adapting-your-webkit-optimized-site-for-internet-explorer-10/) --&gt;
+&lt;meta name=&quot;msapplication-tap-highlight&quot; content=&quot;no&quot;&gt;
+
+&lt;!-- 固定网站 (https://msdn.microsoft.com/en-us/library/dn255024(v=vs.85).aspx) --&gt;
+&lt;meta name=&quot;application-name&quot; content=&quot;Sample Title&quot;&gt;
+&lt;meta name=&quot;msapplication-tooltip&quot; content=&quot;A description of what this site does.&quot;&gt;
+&lt;meta name=&quot;msapplication-starturl&quot; content=&quot;http://example.com/index.html?pinned=true&quot;&gt;
+&lt;meta name=&quot;msapplication-navbutton-color&quot; content=&quot;#FF3300&quot;&gt;
+&lt;meta name=&quot;msapplication-window&quot; content=&quot;width=800;height=600&quot;&gt;
+&lt;meta name=&quot;msapplication-task&quot; content=&quot;name=Task 1;action-uri=http://host/Page1.html;icon-uri=http://host/icon1.ico&quot;&gt;
+&lt;meta name=&quot;msapplication-task&quot; content=&quot;name=Task 2;action-uri=http://microsoft.com/Page2.html;icon-uri=http://host/icon2.ico&quot;&gt;
+&lt;meta name=&quot;msapplication-badge&quot; value=&quot;frequency=NUMBER_IN_MINUTES;polling-uri=http://example.com/path/to/file.xml&quot;&gt;
+&lt;meta name=&quot;msapplication-TileColor&quot; content=&quot;#FF3300&quot;&gt;
+&lt;meta name=&quot;msapplication-TileImage&quot; content=&quot;path/to/tileimage.jpg&quot;&gt;
+
+&lt;meta name=&quot;msapplication-config&quot; content=&quot;http://example.com/browserconfig.xml&quot;&gt;
+&lt;meta name=&quot;msapplication-notification&quot; content=&quot;frequency=60;polling-uri=http://example.com/livetile;polling-uri2=http://example.com/livetile2&quot;&gt;
+&lt;meta name=&quot;msapplication-task-separator&quot; content=&quot;1&quot;&gt;
+</code></pre><h4 id="应用链接"><a href="#应用链接" class="headerlink" title="应用链接"></a>应用链接</h4><pre><code>&lt;!-- iOS --&gt;
+&lt;meta property=&quot;al:ios:url&quot; content=&quot;applinks://docs&quot;&gt;
+&lt;meta property=&quot;al:ios:app_store_id&quot; content=&quot;12345&quot;&gt;
+&lt;meta property=&quot;al:ios:app_name&quot; content=&quot;App Links&quot;&gt;
+&lt;!-- Android --&gt;
+&lt;meta property=&quot;al:android:url&quot; content=&quot;applinks://docs&quot;&gt;
+&lt;meta property=&quot;al:android:app_name&quot; content=&quot;App Links&quot;&gt;
+&lt;meta property=&quot;al:android:package&quot; content=&quot;org.applinks&quot;&gt;
+&lt;!-- Web 回退 --&gt;
+&lt;meta property=&quot;al:web:url&quot; content=&quot;http://applinks.org/documentation&quot;&gt;
+&lt;!-- 更多信息：http://applinks.org/documentation/ --&gt;
+</code></pre><h4 id="国内的浏览器"><a href="#国内的浏览器" class="headerlink" title="国内的浏览器"></a>国内的浏览器</h4><h5 id="360浏览器"><a href="#360浏览器" class="headerlink" title="360浏览器"></a>360浏览器</h5><pre><code>&lt;!-- 选择渲染引擎 --&gt;
+&lt;meta name=&quot;renderer&quot; content=&quot;webkit|ie-comp|ie-stand&quot;&gt;
+</code></pre><h5 id="QQ-移动浏览器"><a href="#QQ-移动浏览器" class="headerlink" title="QQ 移动浏览器"></a>QQ 移动浏览器</h5><pre><code>&lt;!-- 在指定方向上锁定屏幕（锁定横/竖屏） --&gt;
+&lt;meta name=&quot;x5-orientation&quot; content=&quot;landscape/portrait&quot;&gt;
+&lt;!-- 全屏显示此页面 --&gt;
+&lt;meta name=&quot;x5-fullscreen&quot; content=&quot;true&quot;&gt;
+&lt;!-- 页面将以“应用模式”显示（全屏等）--&gt;
+&lt;meta name=&quot;x5-page-mode&quot; content=&quot;app&quot;&gt;
+</code></pre><h5 id="UC浏览器"><a href="#UC浏览器" class="headerlink" title="UC浏览器"></a>UC浏览器</h5><pre><code>&lt;!-- 在指定方向上锁定屏幕（锁定横/竖屏） --&gt;
+&lt;meta name=&quot;screen-orientation&quot; content=&quot;landscape/portrait&quot;&gt;
+&lt;!-- 全屏显示此页面 --&gt;
+&lt;meta name=&quot;full-screen&quot; content=&quot;yes&quot;&gt;
+&lt;!-- 即使在“文本模式”下，UC 浏览器也会显示图片 --&gt;
+&lt;meta name=&quot;imagemode&quot; content=&quot;force&quot;&gt;
+&lt;!-- 页面将以“应用模式”显示（全屏、禁止手势等） --&gt;
+&lt;meta name=&quot;browsermode&quot; content=&quot;application&quot;&gt;
+&lt;!-- 在此页面禁用 UC 浏览器的“夜间模式” --&gt;
+&lt;meta name=&quot;nightmode&quot; content=&quot;disable&quot;&gt;
+&lt;!-- 简化页面，减少数据传输 --&gt;
+&lt;meta name=&quot;layoutmode&quot; content=&quot;fitscreen&quot;&gt;
+&lt;!-- 禁用的 UC 浏览器的功能，“当此页面中有较多文本时缩放字体” --&gt;
+&lt;meta name=&quot;wap-font-scale&quot; content=&quot;no&quot;&gt;
+</code></pre>
+        
+                <blockquote style="margin: 2em 0 0;padding: 0.5em 1em;border-left: 3px solid #F44336;background-color: #F5F5F5;list-style: none;">
+                    <p><strong>
+                         
+                            3
+                        </strong>
+                        <br>
+                        <strong>本文链接：</strong><a href="https://xin-LianK.github.io/2017/10/24/head标签/">https://xin-LianK.github.io/2017/10/24/head标签/</a>
+                    </p>
+                </blockquote>
+        
+    
+
+    
+</div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+    <!-- 使用 changyan -->
+<div id="changyan-comment">
+    <!--PC和WAP自适应版-->
+<div id="SOHUCS" sid="2017/10/24/head标签/"  ></div>
+<script type="text/javascript">
+(function(){
+var appid = 'cytdsMJGU';
+var conf = 'prod_395475cc4386cd10c77bda8506e81ade';
+var width = window.innerWidth || document.documentElement.clientWidth;
+if (width < 960) {
+window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); } })(); </script>
+
+</div>
+<style>
+    #changyan-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+        <a href="/2017/10/25/少走弯路/" id="post_nav-newer" class="prev-content">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_back</i>
+            </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            新篇
+        </a>
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2017/10/23/浏览器书签/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
+                    
+                        <!-- Overlay For Active Sidebar -->
+<div class="sidebar-overlay"></div>
+
+<!-- Material sidebar -->
+<aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation">
+    <div id="sidebar-main">
+        <!-- Sidebar Header -->
+        <div class="sidebar-header header-cover" style="background-image: url(/Aimg/daily_pic.png);">
+    <!-- Top bar -->
+    <div class="top-bar"></div>
+
+    <!-- Sidebar toggle button -->
+    <button type="button" class="sidebar-toggle mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="display: initial;" data-upgraded=",MaterialButton,MaterialRipple">
+        <i class="material-icons">clear_all</i>
+        <span class="mdl-button__ripple-container">
+            <span class="mdl-ripple">
+            </span>
+        </span>
+    </button>
+
+    <!-- Sidebar Avatar -->
+    <div class="sidebar-image">
+        <img src="/Aimg/avatar.png" alt="K.先生's avatar">
+    </div>
+
+    <!-- Sidebar Email -->
+    <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
+        K.350824110@gmail.com
+        <b class="caret"></b>
+    </a>
+</div>
+
+
+        <!-- Sidebar Navigation  -->
+        <ul class="nav sidebar-nav">
+    <!-- User dropdown  -->
+    <li class="dropdown">
+        <ul id="settings-dropdown" class="dropdown-menu">
+            
+                <li>
+                    <a href="mailto: K.350824110@gmail.com" target="_blank" title="Email Me">
+                        
+                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
+                        
+                        Email Me
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Homepage -->
+    
+        <li id="sidebar-first-li">
+            <a href="/">
+                
+                    <i class="material-icons sidebar-material-icons">home</i>
+                
+                主页
+            </a>
+        </li>
+        
+            <li class="divider"></li>
+        
+    
+
+    <!-- Archives  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">inbox</i>
+                
+                    归档
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+            <li>
+                <a class="sidebar_archives-link" href="/archives/2017/11/">十一月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/10/">十月 2017<span class="sidebar_archives-count">15</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/09/">九月 2017<span class="sidebar_archives-count">12</span></a>
+            </ul>
+        </li>
+        
+    
+
+    <!-- Categories  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">chrome_reader_mode</i>
+                
+                分类
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                <a class="sidebar_archives-link" href="/categories/CSS/">CSS<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/HEXO/">HEXO<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/HTML/">HTML<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/JS/">JS<span class="sidebar_archives-count">13</span></a></li><li><a class="sidebar_archives-link" href="/categories/LOL/">LOL<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/github/">github<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/skills/">skills<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/歌曲/">歌曲<span class="sidebar_archives-count">4</span></a></li><li><a class="sidebar_archives-link" href="/categories/自言自语/">自言自语<span class="sidebar_archives-count">4</span></a>
+            </ul>
+        </li>
+        
+    
+
+    <!-- Pages  -->
+    
+        <li>
+            <a href="https://xin-LianK.github.io/home" title="我">
+                
+                    <i class="material-icons sidebar-material-icons">account_balance</i>
+                
+                我
+            </a>
+        </li>
+        
+            <li class="divider"></li>
+        
+    
+        <li>
+            <a href="https://xin-LianK.github.io/home/about" title="关于我">
+                
+                    <i class="material-icons sidebar-material-icons">featured_play_list</i>
+                
+                关于我
+            </a>
+        </li>
+        
+            <li class="divider"></li>
+        
+    
+        <li>
+            <a href="/gallery" title="映像">
+                
+                映像
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/timeline" title="时间轴">
+                
+                时间轴
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/tags" title="标签云">
+                
+                标签云
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/links" title="友联">
+                
+                友联
+            </a>
+        </li>
+        
+    
+
+    <!-- Article Number  -->
+    
+</ul>
+
+
+        <!-- Sidebar Footer -->
+        <!-- Sidebar Divider -->
+
+<div style="position:fixed;bottom:5%;left:45%;z-index:100000000;"><script charset="Shift_JIS" src="http://chabudai.sakura.ne.jp/blogparts/honehoneclock/honehone_clock_tr.js"></script></div>
+
+<!-- Help & Support -->
+<!--
+
+-->
+
+<!-- Feedback -->
+<!--
+
+-->
+
+<!-- About Theme -->
+<!--
+
+-->
+
+    </div>
+
+    <!-- Sidebar Image -->
+    
+
+</aside>
+
+                    
+                    
+                        <!-- Footer Top Button -->
+                        <div id="back-to-top" class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
+
+                    
+                    <!--Footer-->
+<footer class="mdl-mini-footer" id="bottom">
+    
+        <!-- Paradox Footer Left Section -->
+        <div class="mdl-mini-footer--left-section sns-list">
+    <!-- Twitter -->
+    
+        <a href="https://twitter.com/twitter" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-twitter">
+                <span class="visuallyhidden">Twitter</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Facebook -->
+    
+        <a href="https://www.facebook.com/facebook" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-facebook">
+                <span class="visuallyhidden">Facebook</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Google + -->
+    
+        <a href="https://www.google.com/" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-gplus">
+                <span class="visuallyhidden">Google Plus</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Weibo -->
+    
+        <a href="https://www.weibo.com/xinliank" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-weibo">
+                <span class="visuallyhidden">Weibo</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Instagram -->
+    
+
+    <!-- Tumblr -->
+    
+
+    <!-- Github -->
+    
+        <a href="https://github.com/xin-LianK" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-github">
+                <span class="visuallyhidden">Github</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- LinkedIn -->
+    
+
+    <!-- Zhihu -->
+    
+        <a href="https://www.zhihu.com" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-zhihu">
+                <span class="visuallyhidden">Zhihu</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Bilibili -->
+    
+        <a href="https://www.biliblli.com" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-bilibili">
+                <span class="visuallyhidden">Bilibili</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Telegram -->
+    
+    
+    <!-- V2EX -->
+    
+</div>
+
+
+        <!--Copyright-->
+        <div id="copyright">
+            Copyright&nbsp;©<script type="text/javascript">var fd = new Date();document.write("&nbsp;" + fd.getFullYear() + "&nbsp;");</script>K.的博客
+            
+        </div>
+
+        <div class="mdl-mini-footer--right-section">
+            <div>
+                <div class="footer-develop-div">Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div>
+                <div class="footer-develop-div">Theme - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div>
+            </div>
+        </div>
+    
+</footer>
+
+                    <!-- Import JS File -->
+
+    <script>lsloader.load("lazyload_js","/js/lazyload.min.js?1BcfzuNXqV+ntF6gq+5X3Q==", true)</script>
+
+
+
+    <script>lsloader.load("js_js","/js/js.min.js?V/53wGualMuiPM3xoetD5Q==", true)</script>
+
+
+
+    <script>lsloader.load("np_js","/js/nprogress.js?pl3Qhb9lvqR1FlyLUna1Yw==", true)</script>
+
+
+<script type="text/ls-javascript" id="NProgress-script">
+    NProgress.configure({
+        showSpinner: true
+    });
+    NProgress.start();
+    $('#nprogress .bar').css({
+        'background': '#29d'
+    });
+    $('#nprogress .peg').css({
+        'box-shadow': '0 0 10px #29d, 0 0 15px #29d'
+    });
+    $('#nprogress .spinner-icon').css({
+        'border-top-color': '#29d',
+        'border-left-color': '#29d'
+    });
+    setTimeout(function() {
+        NProgress.done();
+        $('.fade').removeClass('out');
+    }, 800);
+</script>
+
+
+
+    
+        <script>lsloader.load("sm_js","/js/smoothscroll.js?lOy/ACj5suSNi7ZVFVbpFQ==", true)</script>
+    
+
+
+
+
+
+    <!-- Busuanzi -->
+    <script src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+   <!-- 畅言公共 js 代码 start -->
+<script id="cy_cmt_num" src="https://changyan.sohu.com/upload/plugins/plugins.list.count.js?clientId=cytdsMJGU">
+</script>
+<!-- 畅言公共 js 代码 end -->
+
+
+
+
+
+<!-- UC Browser Compatible -->
+<script>
+	var agent = navigator.userAgent.toLowerCase();
+	if(agent.indexOf('ucbrowser')>0) {
+		document.write('<link rel="stylesheet" href="/css/uc.css">');
+	   alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
+	}
+</script>
+
+<!-- Import prettify js  -->
+
+
+
+<!-- Window Load -->
+<!-- add class for prettify -->
+<script type="text/ls-javascript" id="window-load">
+    $(window).on('load', function() {
+        // Post_Toc parent position fixed
+        $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
+    });
+
+    
+    
+</script>
+
+<!-- MathJax Load-->
+
+
+<!-- Bing Background -->
+
+
+<script type="text/ls-javascript" id="lazy-load">
+    // Offer LazyLoad
+    queue.offer(function(){
+        $('.lazy').lazyload({
+            effect : 'show'
+        });
+    });
+
+    // Start Queue
+    $(document).ready(function(){
+        setInterval(function(){
+            queue.execNext();
+        },200);
+    });
+</script>
+
+<!-- Custom Footer -->
+
+
+
+<script>
+    (function(){
+        var scriptList = document.querySelectorAll('script[type="text/ls-javascript"]')
+
+        for (var i = 0; i < scriptList.length; ++i) {
+            var item = scriptList[i];
+            lsloader.runInlineScript(item.id,item.id);
+        }
+    })()
+</script>
+
+                </main>
+            </div>
+            
+    <script type="text/javascript" src="/live2d/script.js"></script>
+    <canvas id="live2dcanvas" width="150" height="300" class="live2d"></canvas>
+    <style>
+      #live2dcanvas {
+        position: fixed;
+        right: 0px;
+        z-index: 999;
+        pointer-events: none;
+        bottom: 0px;
+      }
+    </style>
+    <script>loadlive2d("live2dcanvas" ,"/live2d/assets/z16/z16.model.json",0.5)</script>
+  
+        </body>
+    
+</html>
